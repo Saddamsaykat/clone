@@ -1,0 +1,37 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border-radius: 0%;
+    border: 0%;
+}
+
+nav > ul{
+    display: flex;
+    background-color: rgb(29, 40, 44);
+    padding: 1%;
+    border-radius: 20px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 25%;
+    
+     
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-size: 160%;
+    font-weight: 600;
+    
+}
+.option{
+    display: none;
+} 
+nav li:hover .option{
+    display: block;
+    position: absolute;
+    background-color: rgb(55, 76, 83);
+    padding: 10px;
+    margin-top: 10px
+    ;
+}
